@@ -54,11 +54,12 @@ window#waybar {
 #custom-omarchy,
 #custom-screenrecording-indicator,
 #workspaces,
-#clock {
+#clock,
+#language {
     background-color: @background;
     color: @foreground;
     padding: 0 10px;
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0px 6px 0px;
     transition: background-color 0.3s ease;
 }
 
@@ -73,7 +74,8 @@ window#waybar {
 #pulseaudio:hover,
 #battery:hover,
 #custom-screenrecording-indicator:hover,
-#custom-omarchy:hover {
+#custom-omarchy:hover,
+#language:hover {
     background-color: @hover-bg;
 }
 
