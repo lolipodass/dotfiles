@@ -1,6 +1,6 @@
 @define-color base-bg @background;
 @define-color accent @foreground;
-@import './colors.css';
+@import "./colors.css";
 
 @define-color foreground @primary;
 
@@ -28,13 +28,6 @@ window#waybar {
     margin-left: 8px; /* Original margin + 2px */
     margin-right: 8px; /* Original margin + 2px */
 }
-#workspaces button {
-    all: initial;
-    padding: 0 6px;
-    margin: 5px 1.5px;
-    min-width: 9px;
-}
-
 #workspaces button.empty {
     opacity: 0.5;
 }
@@ -163,10 +156,14 @@ mpris#waybar.empty #mpris {
     background: transparent;
     padding: 0 6px;
     border-radius: 10px;
+    all: initial;
+    padding: 0 6px;
+    margin: 5px 1.5px;
+    min-width: 9px;
 }
 
 #workspaces button:hover {
-    background-color: alpha(#b9f6ca, 0.1);
+    background-color: alpha(@foreground, 0.1);
 }
 
 /* --- Module States --- */
