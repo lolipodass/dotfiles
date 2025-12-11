@@ -1,6 +1,8 @@
 @define-color base-bg @background;
 @define-color accent @foreground;
-@import "../omarchy/current/theme/waybar.css";
+@import './colors.css';
+
+@define-color foreground @primary;
 
 @define-color hover-bg alpha(@background, 0.7);
 @define-color warning #e5c07b;
