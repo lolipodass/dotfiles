@@ -1,6 +1,6 @@
 [config.wallpaper]
 command = "awww"
-arguments = ["img", "--transition-type", "random"]
+arguments = ["img", "--transition-type", "random", "-a"]
 set = true
 
 [templates.hyperland]
