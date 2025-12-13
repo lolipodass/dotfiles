@@ -1,8 +1,17 @@
 # Material You colors
 
-background-color={{colors.on_primary.default.hex}}
-text-color={{colors.tertiary.default.hex}}
-border-color={{colors.tertiary_container.default.hex}}
+background-color={{colors.background.default.hex}}
+text-color={{colors.primary.default.hex}}
+border-color={{colors.primary_container.default.hex}}
+width=420
+height=110
+border-size=2
+border-radius=14
+font=Liberation Sans 11
+anchor=top-right
+outer-margin=20
+default-timeout=5000
+max-icon-size=32
 # Per-mode settings
 
 [mode=do-not-disturb]

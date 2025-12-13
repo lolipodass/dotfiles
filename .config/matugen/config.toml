@@ -23,7 +23,6 @@ input_path = './templates/kitty-colors.conf'
 output_path = '~/.config/kitty/colors.conf'
 post_hook = 'omarchy-restart-terminal'
 
-
 [templates.yazi]
 input_path = './templates/yazi-theme.toml'
 output_path = '~/.config/yazi/theme.toml'
@@ -35,3 +34,21 @@ output_path = '~/.config/btop/themes/matugen.theme'
 [templates.starship]
 input_path = './templates/starship-colors.toml'
 output_path = '~/.config/starship.toml'
+
+[templates.mako]
+input_path = './templates/mako'
+output_path = '~/.config/mako/config'
+post_hook = 'makoctl reload'
+
+[templates.swayosm]
+input_path = './templates/swayosd.css'
+output_path = '~/.config/swayosd/colors.css'
+post_hook = 'omarchy-restart-app swayosd-server'
+
+[templates.walker]
+input_path = './templates/walker.css'
+output_path = '~/.config/walker/themes/matugen/colors.css'
+
+[templates.zed]
+input_path = './templates/zed-colors.json'
+output_path = '~/.config/zed/themes/matugen.json'
