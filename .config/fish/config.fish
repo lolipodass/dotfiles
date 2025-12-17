@@ -18,3 +18,5 @@ end
 starship init fish | source
 
 fzf --fish | source
+
+eval (/usr/bin/try init ~/src/tries | string collect)
