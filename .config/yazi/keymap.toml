@@ -62,3 +62,8 @@ desc = "sudo chmod"
 on   = [ "g", "i" ]
 run  = "plugin lazygit"
 desc = "run lazygit"
+
+
+[[mgr.prepend_keymap]]
+on  = "M"
+run = "plugin mount"

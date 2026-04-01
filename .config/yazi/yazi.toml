@@ -1,5 +1,6 @@
 [mgr]
 show_hidden = true
+linemode = "size"
 
 [[plugin.prepend_fetchers]]
 id   = "git"
@@ -10,3 +11,17 @@ run  = "git"
 id   = "git"
 name = "*/"
 run  = "git"
+
+[opener]
+edit_zed = [
+	{ run = 'zeditor "$@"', block = false, desc = "Zed" }
+]
+edit_nvim = [
+	{ run = 'nvim "$@"', block = true, desc = "Neovim" }
+]
+
+# [open]
+# rules = [
+# 	{ name = "*.txt", use = [ "edit_zed", "edit_nvim" ] },
+# 	{ mime = "text/*", use = [ "edit_zed", "edit_nvim" ] },
+# ]

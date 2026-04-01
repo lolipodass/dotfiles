@@ -1,13 +1,13 @@
-@define-color selected-text #9bcbfb;
-@define-color text #2f628c;
-@define-color border #8c9198 ;
-@define-color background #101418 ;
+@define-color selected-text #83d2e4;
+@define-color text #006877;
+@define-color border #899295 ;
+@define-color background #0e1416 ;
 
 
 
-/*$color ="rgba(155, 203, 251, 1)"
-$inner_color ="rgba(0, 51, 83, 1)"
-$outer_color ="rgba(206, 229, 255, 1)"
-$font_color ="rgba(155, 203, 251, 1)"
-$placeholder_color ="rgba(0, 51, 83, 1)"
-$check_color ="rgba(155, 203, 251, 1)"*/
+/*$color ="rgba(131, 210, 228, 1)"
+$inner_color ="rgba(0, 54, 63, 1)"
+$outer_color ="rgba(164, 238, 255, 1)"
+$font_color ="rgba(131, 210, 228, 1)"
+$placeholder_color ="rgba(0, 54, 63, 1)"
+$check_color ="rgba(131, 210, 228, 1)"*/
